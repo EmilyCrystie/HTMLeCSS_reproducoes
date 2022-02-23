@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;    /* eixo x */
+    align-items: center;        /* eixo y */
+}
+
+.imageSide{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;        /* deixar td um embaixo do outro qdo display flez já foi acionado */
+}
+
+.imageSide > h1{
+    color: #77ffc0;
+    font-size: 3vw;
+    width: 80%;
+}
+
+.imageSide > .imageLogin{
+    width: 35vw;
+    text-align: center;
+}
+
+.inputsSide {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardLogin{
+    width: 60%;     /* tamanho com base na sua div, no caso, está ocupando 60% dos 50vw do inputsSide */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cardLogin > h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;     /* qdo se usa flex-direction: column, o justify e o align invertem suas posições, ou seja, justify se torna o eixo y e o align o eixo x */
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;        /* pt: mesma unidade de texto para fontes nos editores de texto */
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;          /* ao clicar dentro da caixa, não cria uma linha em volta dela, como se estivesse selecionada */
+    box-sizing: border-box;         /* div filho não ultrapassa o tamanho da div pai */
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.textfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 100%;      /* ocupa td tamanho do pai */
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;      /* transforma tds letras em maiúscula */
+    font-weight: 800;
+    letter-spacing: 3px;        /* espaçamento entre as letras */
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;            /* curso se transforma de seta para ação */
+    box-shadow: 0px 10px 40px -12px /* uso de spread */ #00ff8052;
+}
+
+@media only screen and (max-width: 950px){
+    .cardLogin{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+    }
+
+    .imageSide > h1{
+        display: none;     /* oculta as coisas do html */
+    }
+
+    .imageSide{
+        width: 100%;
+        height: auto;
+    }
+
+    .imageSide > imageLogin{
+        width: 50vw;
+    }
+
+    .cardLogin{
+        width: 90%;
+    }
+
+
+
+
+    .inputsSide{
+        width: 100%;
+        height: auto;
+    }
+}
