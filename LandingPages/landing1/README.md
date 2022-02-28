@@ -1,4 +1,4 @@
-# Landing Page: Ballerine Bot
+# Landing Page: Balle Bot
 
 Landing Page sobre do Bot da comunidade Ballerini. (https://crystie-lpballerini.netlify.app)
 
