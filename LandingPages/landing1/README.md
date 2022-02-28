@@ -1,14 +1,15 @@
 # Landing Page: Ballerine Bot
 
-Landing Page sobre do Bot da comunidade Ballerini.
+Landing Page sobre do Bot da comunidade Ballerini. (https://crystie-lpballerini.netlify.app)
 
 - Intuito de praticar `flexbox`.
 
 ### 🤓 _**Aprendizado**_ 
-- Facilitação para SEO: utilização de meta dado (descrição de conteúdo) para melhor resultado na busca do conteúdo nos navegadores
-- Uso do `hr` ao invés de `border` para linhas divisórias do conteúdo
-- Aplicação de listas ordenadas para serviços oferecidos
-- Reforço sobre as tags principais e sua semântica para o corpo do HTML (`main`, `section`).
+- Facilitação para SEO: utilização de meta dado (descrição de conteúdo) para melhor resultado na busca do conteúdo nos navegadores,
+- Uso do `hr` ao invés de `border` para linhas divisórias do conteúdo,
+- Aplicação de listas ordenadas para serviços oferecidos,
+- Reforço sobre as tags principais e sua semântica para o corpo do HTML (`main`, `section`),
+- Adicionado `hover` às opções do menu de navegação, dando mais interatividade.
 
 ### 💡 _**Como ficou**_ 💡
 
