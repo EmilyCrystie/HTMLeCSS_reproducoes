@@ -175,12 +175,66 @@ button:hover{
 .content4{
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin: 150px 0px;
+}
+
+.formulario h2{
+    margin-bottom: 35px;
 }
 
 .inputs{
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
+input{
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+input::placeholder{
+    color: #15161b5b;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    background-color: #1A7993;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #219bbd;
+    color: #ffffff;
+    transition: 0.3s all;
+}
 
 /* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px;   
+}
+
+.social{
+    margin-top: 10px;
+}
+
+.social img{
+    width: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
