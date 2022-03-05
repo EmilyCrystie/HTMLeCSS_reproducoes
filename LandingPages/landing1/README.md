@@ -14,7 +14,7 @@
    <li> Facilitação para SEO: utilização de meta dado (descrição de conteúdo) para melhor resultado na busca do conteúdo nos navegadores </li>
    <li> Uso do <code>hr</code> ao invés de <code>border</code> para linhas divisórias do conteúdo </li>
    <li> Aplicação de listas ordenadas para serviços oferecidos </li>
-   <li> Reforço sobre as tags principais e sua semântica para o corpo do HTML (<code>main</code>, <code>section</code> </li>
+   <li> Reforço sobre as tags principais e sua semântica para o corpo do HTML (<code>main</code>, <code>section</code>> </li>
   </ol>
  <h3> CSS 
   <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
