@@ -2,9 +2,9 @@
 <p> LandingPage de alguns produtos da Starbucks </p>
 <br>
 <div align="center">  
- <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
+ <p> ➡️ Acesse o projeto por <a href="https://crystie-lpstarbucks.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
- <img src="#" alt="Layout do meu projeto finalizado"> 
+ ![image](https://user-images.githubusercontent.com/81563039/158256768-90fa4a19-578a-4530-8e0f-15c3c7518059.png) 
 </div>
 <br>
  
@@ -13,27 +13,30 @@
   <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Listas </li>
+   <li> Links </li>
+   <li> Imagens </li>
   </ol>
   
  <h3> CSS 
   <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Posicionamento dos elementos com <code>position: absolute</code> e <code>position: relative</code> </li>
+   <li> Display:<code>flex</code> e <code>position: inline-block</code> </li>
+   <li> Tamanho máximo e/ou mínimo dos elementos </li>
+   <li> Pseudo classe <code>hover</code> </li>
+   <li> Propriedade <code>transform</code> para deslizar, inflar elementos ou alterar tamanho de vetores conforme passa cursor do mouse</li>
+   <li> Inversão de cor com <code>filter: invert( )</code> </li>
+   <li> Região de corte usando <code>clip-path</code> </li>
   </ol>
   
   <h3> JAVASCRIPT 
   <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS" width="15" height="15"/>
- </h3>
+  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Funções </li>
+   <li> <code>document.querySelector</code> </li>
   </ol>
 <br>
  
