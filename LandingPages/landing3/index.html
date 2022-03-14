@@ -9,6 +9,7 @@
 </head>
 <body>
     <section>
+        <div class="circle"></div>
         <header>
             <a href="#"><img src="assets/logo.png" alt="logo" class="logo"></a>
             <ul>
@@ -18,11 +19,37 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </header>
+        <div class="content">
+            <div class="textSide">
+                <h2>It's not just Coffee<br>It's <span>Starbuks</span></h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, nesciunt distinctio. Odio iure dolor dolores minus corrupti molestiae. Natus, ullam perferendis. Accusantium sit est ab amet quae eius eaque velit?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imageSide">
+                <img src="assets/img1.png" class="StarbucksDrink" alt="bebida Starbucks" >
+            </div>
+        </div>
+        <ul class="drinks">
+            <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png'); changeCircleBackground('#017143')" alt="opção de bebida Starbucks"></li>
+            <li><img src="assets/thumb2.png" onclick="imgSlider('assets/img2.png'); changeCircleBackground('#eb7495')" alt="opção de bebida Starbucks"></li>
+            <li><img src="assets/thumb3.png" onclick="imgSlider('assets/img3.png'); changeCircleBackground('#d752b1')" alt="opção de bebida Starbucks"></li>
+        </ul>
+        <ul class="socialMedias">
+            <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="assets/instagram.png" alt=""></a></li>
+        </ul>
     </section>
-    
-    <main>
 
-    </main>
-    
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.StarbucksDrink').src = anything;
+        }
+
+        function changeCircleBackground(color){
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
 </body>
 </html>
