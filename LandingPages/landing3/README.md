@@ -26,6 +26,15 @@
    <li>  </li>
    <li>  </li>
   </ol>
+  
+  <h3> JAVASCRIPT 
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JS" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li>  </li>
+   <li>  </li>
+   <li>  </li>
+  </ol>
 <br>
  
 <h2> 💡 Design </h2>
