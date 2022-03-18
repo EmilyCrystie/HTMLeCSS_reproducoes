@@ -2,9 +2,9 @@
 <p> Landing page de produto da Suzuki. </p>
 <br>
 <div align="center">  
- <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
+ <p> ➡️ Acesse o projeto por <a href="https://crystie-lpsuzuki.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
- <img src="#" alt="Layout do meu projeto finalizado"> 
+ ![image](https://user-images.githubusercontent.com/81563039/159046719-772e7efa-c6de-4cce-829f-3bcadb407d93.png) 
 </div>
 <br>
  
@@ -13,18 +13,22 @@
   <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Tags semânticas </li>
+   <li> Listas </li>
+   <li> Links </li>
+   <li> Imagens externas </li>
+   <li> Api de biblioteca de ícones </li>
   </ol>
   
  <h3> CSS 
   <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Variáveis </li>
+   <li> Pseudo-elemento </li>
+   <li> Sobreposição de elementos: <code>z-index</code> </li>
+   <li> <code>position</code> </li>
+   <li> <code>display: flex</code> </li>
   </ol>
 <br>
  
