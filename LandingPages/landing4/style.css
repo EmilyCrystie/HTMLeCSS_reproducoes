@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.content::before{
+.content::before{           /*pseudo-elemento para inserir alguma coisa nates do contepudo principal*/
     content: 'Adventure';
     position: absolute;
     top: 50%;
@@ -168,7 +168,7 @@ footer{
     padding: 0 100px;
     transition: 0.25s;
     opacity: 0;
-    pointer-events: none;
+    pointer-events: none;           /*elemento não reage a eventos de ponteiro*/
 }
 
 .slider .slides.active{
