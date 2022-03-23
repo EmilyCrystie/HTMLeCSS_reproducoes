@@ -8,6 +8,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <a href="#" class="logo">Food <span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testemonials">Testemonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis esse tempore quod architecto, at necessitatibus aspernatur odit eum animi error cumque eius?</p>
+            <a href="#" class="button">Our Menu</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2><span>A</span>bout Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt porro quae perspiciatis magnam quidem! Natus perferendis id in quia. Maxime, dolor. Earum exercitationem laborum adipisci facere voluptas beatae sint ab! <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, pariatur quis beatae omnis veritatis repudiandae voluptatem provident numquam officia id non soluta! Corrupti laudantium tempore, quos possimus sunt deleniti fugiat?</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="assets/img1.jpg" alt="fot de pizza sendo servido">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
 </body>
-</html>
