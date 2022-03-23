@@ -1,7 +1,7 @@
-<h1 align="center"> Restaurante </h1>
-<p> Landing Page (apenas Front) de restaurante, com sobre, cardápio, colaboradores, contato, etc. </p>
-<br>
-<div align="center">  
+<div align="center">
+ <h1> Restaurante </h1>
+ <p> Landing Page (apenas Front) de restaurante, com sobre, cardápio, colaboradores, contato, etc. </p>
+ <br>
  <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
 
  <img src="#" alt="Layout do meu projeto finalizado"> 
