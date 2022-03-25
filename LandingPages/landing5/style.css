@@ -50,7 +50,7 @@ body{
     color: var(--white);
 }
 
-.button{
+.button, .contactForm .inputBox input[type="submit"]{
     font-size: 1em;
     color: var(--white);
     background: var(--red);
@@ -319,6 +319,36 @@ section{
     margin-bottom: 20px;
 }
 
-.contactForm .inputBox input{
-    
+.contactForm .inputBox input, .contactForm .inputBox input textarea{
+    width: 100%;
+    border: 1px solid #555;
+    padding: 10px;
+    color: var(--black);
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+}
+
+.contactForm .inputBox input[type="submit"]{
+    max-width: 100px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.copyrightText{
+    padding: 8px 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.copyrightText p{
+    color: #333;
+}
+
+.copyrightText a{
+    color: var(--red);
+    font-weight: 500;
+    text-decoration: none;
 }
