@@ -1,8 +1,8 @@
 <div align="center">
- <h1> Restaurante </h1>
- <p> 🚧 Landing Page (apenas Front) de restaurante, com sobre, cardápio, colaboradores, contato, etc. 🚧 </p>
+ <h1> Landing Page: Restaurante </h1>
+ <p> Frontend de restaurante (desktop), com sobre, cardápio, colaboradores, contato, etc. </p>
  <br>
- <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
+ <p> ➡️ Acesse o projeto por <a href="https://crystie-lpfood.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
  ![image](https://user-images.githubusercontent.com/81563039/162474686-04dbd91d-26c8-45dc-adb3-cea92c364cb6.png)
  ![image](https://user-images.githubusercontent.com/81563039/162474778-aa9e3f55-c426-47bf-bcb3-4ffb9fdf57a3.png)
@@ -14,18 +14,25 @@
   <img src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="HTML5" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Uso de imagens </li>
+   <li> estilização especifíca com <code> span </code> </li>
   </ol>
   
  <h3> CSS 
   <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" width="15" height="15"/>
  </h3>
   <ol>
-   <li>  </li>
-   <li>  </li>
-   <li>  </li>
+   <li> Variáveis para cores </li>
+   <li> Tamanhos mínimos e máximos </li>
+   <li> Posição de elementos </li>
+   <li> Configuração da visualização do scroll </li>
+  </ol>
+  
+ <h3> JS
+  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript" width="15" height="15"/>
+ </h3>
+  <ol>
+   <li> Função para menu de navegação enquanto há scroll na tela </li>
   </ol>
 <br>
  
