@@ -4,7 +4,8 @@
  <br>
  <p> ➡️ Acesse o projeto por <a href="" target="_blank"> aqui </a>⬅️</p>
 
- <img src="#" alt="Layout do meu projeto finalizado"> 
+ ![image](https://user-images.githubusercontent.com/81563039/162474686-04dbd91d-26c8-45dc-adb3-cea92c364cb6.png)
+ ![image](https://user-images.githubusercontent.com/81563039/162474778-aa9e3f55-c426-47bf-bcb3-4ffb9fdf57a3.png)
 </div>
 <br>
  
