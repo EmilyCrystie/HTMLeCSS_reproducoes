@@ -4,7 +4,7 @@
  <br>
  <p> ➡️ Acesse o projeto por <a href="https://crystie-logonetflix.netlify.app" target="_blank"> aqui </a>⬅️</p>
 
-![Alt text](image.png)
+![image](https://github.com/EmilyCrystie/Html_Css_Community/assets/81563039/f0999604-5c60-451c-b4ba-db4e4d0e7a71)
 
 </div>
 <br>
