@@ -3,121 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BalleCoffee</title>
+    <title>Ballecoffe</title>
     <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <span>BalleCoffee</span>
-            <ul>
+            <span id="logo">BalleCoffee</span>
+            <ul id="menu">
                 <li><a>Home</a></li>
                 <li><a>Receitas</a></li>
                 <li><a>Novidades</a></li>
                 <li><a>Melhor avaliadas</a></li>
             </ul>
-            <a>Github</a>
+            <a id="github" href="https://github.com/EmilyCrystie" target="_blank">Github</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <header>
-                <span>Novidade</span>
-                <h1>Encontre a receita perfeita!</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
-            </header>
-            <div>
-                <figure><img src="assets/image 1.png"></figure>
-                <figure><img src="assets/image 2.png"></figure>
-                <figure><img src="assets/image 3.png"></figure>
-                <figure><img src="assets/image 10.png"></figure>
-                <figure><img src="assets/image 11.png"></figure>
-                <figure><img src="assets/image 12.png"></figure>
-                <figure><img src="assets/image 13.png"></figure>
-                <figure><img src="assets/image 14.png"></figure>
-                <figure><img src="assets/image 15.png"></figure>
-                <figure><img src="assets/image 16.png"></figure>
-                <figure><img src="assets/image 17.png"></figure>
-                <figure><img src="assets/image 18.png"></figure>
+        <section id="hero">
+            <div class="conteudo_hero" id="conteudo_hero_texto">
+                <header id="header_hero">
+                    <span class="span_status marrom">Novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr>
+                    <h2 id="subtitulo_hero">Explore dezenas de variações da bebida favorita entre os <span id="span_hero">devs</span> ao redor do mundo!</h2>
+                </header>
+            </div>
+
+            <div class="conteudo_hero" id="conteudo_hero_imagens">
+                <figure><img class="imagens_cafe" src="assets/image 1.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 2.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 3.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 10.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 11.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 12.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 13.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 14.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 15.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 16.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 17.png"></figure>
+                <figure><img class="imagens_cafe" src="assets/image 18.png"></figure>
             </div>
         </section>
-        <section>
-            <button>
-                <img src="assets/chevrons-down.svg" alt="">
+
+        <section id="botao">
+            <button type="button">
+                <a href="#receitas"><img src="assets/chevrons-down.svg" alt="" id="botao_svg"></a>
             </button>
         </section>
-        <section>
-            <header>
-                <span>receitas</span>
-                <h2>Confira as últimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
+
+        <section id="receitas">
+            <header id="header_receitas">
+                <span class="span_status marrom">Receitas</span>
+                <h2 id="subtitulo_receitas">Confira as últimas receitas</h2>
+                <p id="texto_receitas">Dê uma olhada nas receitas mais amadas!</p>
             </header>
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta 🔥</span>
-                            <h3>Cappuccino</h3>
-                        </div>
-                        <p>Extraordinário 4/4</p>
+            <div id="cards">
+                <div class="card">
+                    <span class="span_status amarelo">Em alta 🔥 </span>
+                    <header class="header_card">
+                        <h3>Cappuccino ☕</h3>
+                        <span class="span_notas">Extraordinário · 4/4</span>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/81563039?v=4" alt="">
-                        <span>Emily Felix</span>
+                    <p class="descricao_receita">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="dados_cliente">
+                        <img class="imagem_cliente" src="https://avatars.githubusercontent.com/u/81563039?v=4" alt="">
+                        <span class="nome_cliente">Emily Felix</span>
                     </div>
                 </div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta 🔥</span>
-                            <h3>Cappuccino</h3>
-                        </div>
-                        <p>Extraordinário 4/4</p>
+                <div class="card">
+                    <span class="span_status marrom">NOVO </span>
+                    <header class="header_card">
+                        <h3>Cappuccino ☕</h3>
+                        <span class="span_notas">Bom · 3/4</span>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/81563039?v=4" alt="">
-                        <span>Emily Felix</span>
+                    <p class="descricao_receita">Para quem gosta de um café amargo.</p>
+                    <div class="dados_cliente">
+                        <img class="imagem_cliente" src="https://randomuser.me/api/portraits/men/27.jpg" alt="">
+                        <span class="nome_cliente">Alex Silva</span>
                     </div>
                 </div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta 🔥</span>
-                            <h3>Cappuccino</h3>
-                        </div>
-                        <p>Extraordinário 4/4</p>
+                <div class="card">
+                    <span class="span_status marrom">Novo </span>
+                    <header class="header_card">
+                        <h3>Cappuccino ☕</h3>
+                        <span class="span_notas">Extraordinário · 4/4</span>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/81563039?v=4" alt="">
-                        <span>Emily Felix</span>
+                    <p class="descricao_receita">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="dados_cliente">
+                        <img class="imagem_cliente" src="https://randomuser.me/api/portraits/women/67.jpg" alt="">
+                        <span class="nome_cliente">Ana Katarina</span>
                     </div>
                 </div>
-                <div>
-                    <header>
-                        <div>
-                            <span>em alta 🔥</span>
-                            <h3>Cappuccino</h3>
-                        </div>
-                        <p>Extraordinário 4/4</p>
+                <div class="card">
+                    <span class="span_status marrom">Novo </span>
+                    <header class="header_card">
+                        <h3>Cappuccino ☕</h3>
+                        <span class="span_notas">Extraordinário · 4/4</span>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
-                        <img src="https://avatars.githubusercontent.com/u/81563039?v=4" alt="">
-                        <span>Emily Felix</span>
+                    <p class="descricao_receita">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="dados_cliente">
+                        <img class="imagem_cliente" src="https://randomuser.me/api/portraits/women/16.jpg" alt="">
+                        <span class="nome_cliente">Susana Lima</span>
                     </div>
                 </div>
             </div>
+            <a id="mais_receitas">Carregar mais receitas...</a>
         </section>
     </main>
 
     <footer>
-        <p>Copyright &lt;CODEFEE/&gt; 2023 </p>
-        <p>Feito com muito ❤ e café por Emily Felix</p>
+        <span id="copyright">Copyright &lt;CODEFEE/&gt; 2023 </span>
+        <span id="autor">Feito com muito ❤ e café por <u>Emily Felix</u></span>
     </footer>
 </body>
 </html>

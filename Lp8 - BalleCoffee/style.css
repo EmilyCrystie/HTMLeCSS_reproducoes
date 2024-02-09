@@ -1,0 +1,304 @@
+/* ####### configurações css gerais###### */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --laranja_claro: #FFF2E780;
+    --laranja_medio: #fff2e7;
+    --marrom: #a45a49;
+    --amarelo: #E7A80E;
+    --acizentado_claro: #C7BAB3;
+    --acizentado_medio: #c7bab2;
+}
+
+body{
+    background-color: #1f1517;
+    color: #ffffff;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--laranja_medio);
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ############ navbar ########### */
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    gap: 1.5rem;
+    color: var(--laranja_claro);
+}
+
+#github{
+    color: var(--laranja_medio);
+    font-weight: 600;
+}
+
+/* ############ hero: geral ########### */
+#hero{
+    background-color: #181012;
+    height: 24rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+
+    padding: 0rem 10rem;
+    overflow: clip;
+}
+
+/* ############ hero: texto ########### */
+#header_hero{
+    width: 80%;
+}
+
+.span_status{
+    font-family: Epilogue;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.marrom{
+    color: var(--marrom);
+}
+
+.amarelo{
+    color: var(--amarelo);
+}
+
+h1{
+    font-family: Montserrat, sans-serif; ;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+    margin-top: 0.625rem;
+}
+
+hr{
+    border-color: var(--marrom);
+    background-color: var(--marrom);
+
+    width: 12rem;
+    height: 0.125rem;
+    margin: 1.125rem 0 1.125rem 0;
+}
+
+#subtitulo_hero{
+    color: var(--acizentado_medio);
+    font-family: Inter, sans-serif;
+    font-size: 1.10rem;
+    font-weight: 400;
+}
+
+#span_hero{
+    font-weight: 600;
+}
+
+/* ############ hero: imagem ########### */
+#conteudo_hero_imagens{
+    column-count: 4;
+}
+
+.imagens_cafe{
+    width: 6rem;
+    margin-bottom: 0.1rem;
+}
+
+/* ############ botao: descer page ########### */
+#botao{
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 5.5rem;
+
+    display: flex;
+    justify-content: flex-start; 
+}
+
+button{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--marrom);
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    transform: translateY(-50%);
+}
+
+#botao_svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* ############ receitas: geral ########### */
+#header_receitas{
+    margin-top: 2rem;
+    padding: 0rem 10rem;
+}
+
+#subtitulo_receitas{
+    font-family: Montserrat, sans-serif; ;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.625rem;
+}
+
+#texto_receitas{
+    color: var(--acizentado_medio);
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* ############ receitas: cards ########### */
+#cards{
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-inline: 8rem;
+    column-count: 2;
+}
+
+.card{
+    background: #241A1C;
+    transition: transform 0.3s ease-out;
+    cursor: pointer;
+
+    max-width: 35rem;
+    height: 11.625rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+.header_card{
+    margin: 0.375rem 0 1.5rem 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_card > h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.span_notas{
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #756A67;
+}
+
+.descricao_receita{
+    font-family: Inter, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--acizentado_claro);
+
+    margin-bottom: 1.5rem;
+}
+
+.dados_cliente{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.imagem_cliente{
+    width: 1.5rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nome_cliente{
+    text-align: justify;
+    color: var(--acizentado_claro);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#mais_receitas{
+    color: var(--acizentado_claro);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin: 1rem 0 4rem 0;
+}
+
+#mais_receitas:hover{
+    color: #fff2e7;
+}
+
+/* ############ footer ########### */
+footer{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.625rem;
+    background: #23181A;
+}
+
+#copyright{
+    font-size: 0.875rem;
+    color: var(--laranja_medio);
+}
+
+#autor{
+    font-size: 0.875rem;
+    color: #fff2e750;
+}
