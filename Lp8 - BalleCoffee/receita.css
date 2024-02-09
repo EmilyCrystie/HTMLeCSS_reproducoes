@@ -71,25 +71,7 @@ nav{
     font-weight: 600;
 }
 
-/* ############ hero: geral ########### */
-#hero{
-    background-color: #181012;
-    height: 24rem;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem;
-
-    padding: 0rem 10rem;
-    overflow: clip;
-}
-
-/* ############ hero: texto ########### */
-#header_hero{
-    width: 80%;
-}
-
+/* ############ dados receita: geral ########### */
 .span_status{
     font-family: Epilogue;
     font-size: 0.8rem;
@@ -105,144 +87,42 @@ nav{
     color: var(--amarelo);
 }
 
-h1{
-    font-family: Montserrat, sans-serif; ;
-    font-size: 2.5rem;
-    font-weight: 800;
 
-    margin-top: 0.625rem;
-}
-
-hr{
-    border-color: var(--marrom);
-    background-color: var(--marrom);
-
-    width: 12rem;
-    height: 0.125rem;
-    margin: 1.125rem 0 1.125rem 0;
-}
-
-#subtitulo_hero{
-    color: var(--acizentado_medio);
-    font-family: Inter, sans-serif;
-    font-size: 1.10rem;
-    font-weight: 400;
-}
-
-#span_hero{
-    font-weight: 600;
-}
-
-/* ############ hero: imagem ########### */
-#conteudo_hero_imagens{
-    column-count: 4;
-}
-
-.imagens_cafe{
-    width: 6rem;
-    margin-bottom: 0.1rem;
-}
-
-/* ############ botao: descer page ########### */
-#botao{
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
-    padding: 0 5.5rem;
+/* ############ card: dados_receita ########### */
+#dados_receita{
+    background: #181012;
+    height: 25rem;
 
     display: flex;
-    justify-content: flex-start; 
-}
-
-button{
-    width: 3rem;
-    height: 3rem;
-    border: none;
-    border-radius: 0.5rem;
-    background-color: var(--marrom);
-    cursor: pointer;
-
-    display: flex;
+    justify-content: space-center;
     align-items: center;
-    justify-content: center;
-
-    position: relative;
-    transform: translateY(-50%);
-}
-
-#botao_svg{
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-/* ############ receitas: geral ########### */
-#header_receitas{
-    margin-top: 2rem;
-    padding: 0rem 10rem;
-}
-
-#subtitulo_receitas{
-    font-family: Montserrat, sans-serif; ;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-top: 0.625rem;
-}
-
-#texto_receitas{
-    color: var(--acizentado_medio);
-    font-family: Inter, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-/* ############ receitas: cards ########### */
-#cards{
-    max-width: 100%;
-    margin-top: 2rem;
-    margin-inline: 8rem;
-    column-count: 2;
 }
 
 .card{
-    background: #241A1C;
+    margin-inline: auto;
+    max-width: 28rem;
+    height: 14rem;
+    border-radius: 0.5rem;
+
     transition: transform 0.3s ease-out;
     cursor: pointer;
 
-    max-width: 35rem;
-    height: 11.625rem;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    margin-bottom: 1rem;
-    margin-inline: auto;
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
-}
-
-.card:hover{
-    transform: scale(1.04);
 }
 
 .header_card{
     margin: 0.375rem 0 1.5rem 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_card > h3{
+h1{
     font-family: Montserrat, sans-serif;
-    font-size: 1.25rem;
+    font-size: 3rem;
     font-weight: 700;
-}
-
-.span_notas{
-    font-family: Inter, sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #756A67;
 }
 
 .descricao_receita{
@@ -261,30 +141,96 @@ button{
 }
 
 .imagem_cliente{
-    width: 1.5rem;
+    width: 2.5rem;
     height: auto;
     border-radius: 50%;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
 }
 
 .nome_cliente{
     text-align: justify;
     color: var(--acizentado_claro);
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1.125rem;
 }
 
-#mais_receitas{
-    color: var(--acizentado_claro);
-    font-weight: 400;
-    font-size: 1rem;
-    text-align: center;
-    display: block;
-    margin: 1rem 0 4rem 0;
+.data_membro{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #756A67;
 }
 
-#mais_receitas:hover{
-    color: #fff2e7;
+/* ############ pontuacoes_receita ########### */
+#pontuacoes_receita{
+    background: #1F1517;
+    padding: 1.5rem;
+    margin: auto;
+    max-width: 31rem;
 }
+
+#card_pontuacao{
+    margin-top: 1.25rem;
+    border-radius: 0.5rem;
+}
+
+.header_pontuacao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.header_pontuacao > p{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--laranja_medio);
+}
+
+.header_pontuacao > span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--laranja_claro);
+}
+
+.progressao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 28rem;
+}
+
+progress.pontuacao{
+    margin: auto;
+}
+
+progress[value] {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 0.25rem;
+    width: 6rem;
+    height: 0.25rem;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: var(--marrom);
+    border-radius: 0.25rem;
+}
+
+progress[value]::-moz-progress-bar {
+    background-color: var(--marrom);
+}
+
+
+
 
 /* ############ footer ########### */
 footer{
