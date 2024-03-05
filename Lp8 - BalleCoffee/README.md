@@ -3,8 +3,17 @@
  <p> Landing Page de comunidade de viciados em café e suas receitas </p>
  <br>
  <p> ➡️ Acesse o projeto por <a href="https://crystie-lpBallecoffee.netlify.app" target="_blank"> aqui </a>⬅️</p>
+ <br>
+ 
+<p> <strong>HOME:</strong> </p>
 
 ![image](https://github.com/EmilyCrystie/Html_Css_Community/assets/81563039/a8a83617-89db-42c3-a053-833a487df3c3)
+
+
+<p> <strong>RECEITA:</strong> </p>
+
+![image](https://github.com/EmilyCrystie/Html_Css_Community/assets/81563039/86d1067e-c405-4fe7-917d-453f8764368f)
+
 
 </div>
 <br>
