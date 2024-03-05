@@ -229,6 +229,108 @@ progress[value]::-moz-progress-bar {
     background-color: var(--marrom);
 }
 
+/* ############ receita: geral ########### */
+#receita{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    /* gap: 2rem; */
+}
+
+.header_receita > h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--laranja_medio);
+    margin-bottom: 0.25rem;
+}
+
+.header_receita > p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--acizentado_claro);
+    margin-bottom: 2rem;
+}
+
+/* ############ receita: modo preparo ########### */
+
+#modo_preparo{
+    max-width: 44rem;
+    background: #23181A;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+#conteudo_preparo {
+    list-style-type: none; /* Remove os pontos */
+    counter-reset: item; /* Zera o contador */
+}
+
+#conteudo_preparo > li {
+    counter-increment: item; /* Incrementa o contador */
+    margin-bottom: 1.5rem; /* Espaçamento entre os itens */
+    font-size: 1rem;
+    color: var(--laranja_medio);
+    font-weight: 600;
+}
+
+#conteudo_preparo > li::before {
+    content: counter(item); /* Adiciona o número do contador */
+    background-color: var(--marrom); /* Cor de fundo para o número */
+    padding: 0.594rem 0.9rem; /* Espaçamento ao redor do número */
+    border-radius: 0.5rem; /* Deixa o número em forma de círculo */
+    margin-right: 1rem; /* Espaçamento à direita do número */
+}
+#conteudo_preparo > li:last-child::before {
+    content: "🎉"; /* Substitui o número pelo emoji */
+    padding: 0.594rem 0.594rem;
+}
+
+#conteudo_preparo > li > .passo{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--acizentado_claro);
+}
+
+/* ########### receita: ingredientes ########## */
+#ingredientes{
+    max-width: 20.25rem;
+    background: #23181A;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.ingrediente{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.item_ingrediente{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_ingrediente > .medida_ingrediente{
+    color: var(--marrom);
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Remove a aparência padrão do navegador no Safari/Chrome */
+    -moz-appearance: none; /* Remove a aparência padrão do navegador no Firefox */
+    appearance: none; /* Remove a aparência padrão do navegador */
+    
+    width: 1.25rem;
+    height: 1.25rem;
+    background: #2E2023;
+    border: solid #38282B 0.104rem;
+    border-radius: 0.417rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
 
 
 
